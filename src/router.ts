@@ -10,11 +10,11 @@ const router = createRouter({
       name: 'home',
       component: HomePage,
     },
-    // {
-    //   path: '/check',
-    //   name: 'about',
-    //   component: async () => await import('@/views/AboutView.vue'),
-    // },
+    {
+      path: '/check/:ip',
+      name: 'check',
+      component: () => import('./pages/CheckPage.vue'),
+    },
   ],
 });
 
