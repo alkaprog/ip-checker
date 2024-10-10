@@ -6,8 +6,11 @@ export default {
       sans: ['Inter', 'sans-serif'],
     },
     colors: {
+      white: '#FFFFFF',
       main: '#303345',
       secondary: '#6B6D80',
+      bg: '#F7F9FB',
+      border: '#E1E8F1',
       dark: '#070707'
     },
     fontSize: {
@@ -15,7 +18,7 @@ export default {
       sm: ['14px', '20px'],
       base: ['16px', '20px'],
       lg: ['18px', '22px'],
-      xl: ['20px', '28px'],
+      xl: ['24px', '32px'],
       '2xl': ['24px', '32px'],
       '3xl': ['28px', '33px'],
       '4xl': ['30px', '36px'],
